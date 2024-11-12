@@ -6,7 +6,7 @@ import lombok.ToString;
 import java.time.LocalDate;
 
 @Data
-@ToString
+@ToString(exclude = {"user", "bank", "employee", "paymentAccount"})
 public class CreditAccount {
 
     private int id;

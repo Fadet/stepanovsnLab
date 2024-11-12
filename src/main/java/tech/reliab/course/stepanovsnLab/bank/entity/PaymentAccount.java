@@ -4,7 +4,7 @@ import lombok.Data;
 import lombok.ToString;
 
 @Data
-@ToString
+@ToString(exclude = {"user", "bank"})
 public class PaymentAccount {
     private int id;
     private User user;

@@ -9,9 +9,9 @@
         <!--  lookup parent from repository  -->
     </parent>
     <groupId>tech.reliab.course</groupId>
-    <artifactId>stepanovsnLab</artifactId>
+    <artifactId>StepanovsnLab</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>stepanovsnLab</name>
+    <name>StepanovsnLab</name>
     <url/>
     <licenses>
         <license/>

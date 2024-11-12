@@ -5,7 +5,7 @@ import lombok.ToString;
 import tech.reliab.course.stepanovsnLab.bank.enums.BankAtmStatus;
 
 @Data
-@ToString
+@ToString(exclude = {"bank", "location", "employee"})
 public class BankAtm {
     private int id;
     private String name;
